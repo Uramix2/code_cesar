@@ -74,10 +74,5 @@ decrypt_sans_cle("erqmrxu")
 
 ---
 
-## Améliorations possibles
-- Ajouter la gestion des majuscules et des caractères spéciaux.
-- Optimiser l'utilisation des dictionnaires pour éviter les boucles imbriquées.
-- Ajouter une interface utilisateur pour interagir avec le programme plus facilement.
-
 Bon chiffrement ! 🔐
 
