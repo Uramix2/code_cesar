@@ -1,5 +1,3 @@
-# code_cesar
-
 # Chiffrement de César en Python
 
 ## Description
