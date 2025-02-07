@@ -4,7 +4,7 @@
 ![Security](https://img.shields.io/badge/Security-Cryptography-red?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Incomplete-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
+![Contributions](https://img.shields.io/badge/Contributions-Faucheur/Baptium-brightgreen?style=for-the-badge)
 
 > **Un programme en Python permettant de chiffrer et déchiffrer un texte avec le chiffrement de César.**
 
