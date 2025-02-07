@@ -121,5 +121,5 @@ Les contributions sont les bienvenues ! Si vous avez des idées d'améliorations
 ## 📜 **Licence**
 Ce projet est sous licence **MIT** - vous pouvez l'utiliser librement ! ✅
 
-🚀 *Projet créé par [Uramix](https://github.com/ton-github).*
+🚀 *Projet créé par [Uramix](https://github.com/Uramix2/).*
 
