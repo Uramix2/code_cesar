@@ -15,7 +15,7 @@ Ce programme propose trois fonctionnalités principales :
 - 🔹 **`decrypt_avec_cle(mot, espace)`** → Déchiffre un mot avec une clé donnée.
 - 🔹 **`decrypt_sans_cle(mot)`** → Tente de déchiffrer un mot sans clé en testant les 26 possibilités.
 
-Le tout avec un affichage **stylé et coloré** en terminal ! 🎨✨
+Le tout avec un affichage **sympa et coloré** en terminal ! 🎨✨
 
 ---
 
