@@ -9,13 +9,14 @@
 > **Un programme en Python permettant de chiffrer et déchiffrer un texte avec le chiffrement de César.**
 
 ## 📜 **Description**
-Ce programme propose trois fonctionnalités principales :
+Ce programme propose plusieurs fonctionnalités :
 
 - 🔹 **`code_cesar(mot, espace)`** → Chiffre un mot avec une clé donnée.
 - 🔹 **`decrypt_avec_cle(mot, espace)`** → Déchiffre un mot avec une clé donnée.
 - 🔹 **`decrypt_sans_cle(mot)`** → Tente de déchiffrer un mot sans clé en testant les 26 possibilités.
+- 🔹 **`decrypt_date(date)`** → Déchiffre une date en brute force en testant les décalages de 0 à 9.
 
-Le tout avec un affichage **sympa et coloré** dans le terminal ! 🎨✨
+Le tout avec un affichage **coloré et interactif** dans le terminal ! 🎨✨
 
 ---
 
