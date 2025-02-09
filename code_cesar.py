@@ -1,6 +1,6 @@
 # Description: Ce programme permet de crypter et décrypter un mot en utilisant le chiffrement de César.
 # Date de création: 04/02/2025 
-# Date de modification: 07/02/2025
+# Date de modification: 08/02/2025
 # Auteur: Uramix 
 
 # --- Fonctions --- #
@@ -33,10 +33,17 @@ def code_cesar(mot, espace):
                 ascii_let -= 26
             mot_cryp += chr(ascii_let)
 
+
         elif "A" <= let <= "Z":
             ascii_let = ord(let) + espace
             if ascii_let > ord('Z'):  
                 ascii_let -= 26
+            mot_cryp += chr(ascii_let)
+        
+        elif "0" <= let <= "9":
+            ascii_let = ord(let) + espace
+            if ascii_let > ord('9'):  
+                ascii_let -= 10
             mot_cryp += chr(ascii_let)
 
         else:
@@ -94,6 +101,12 @@ def decrypt_avec_cle(mot, espace):
                 ascii_let += 26
             mot_decryp += chr(ascii_let)
 
+        elif "0" <= let <= "9":
+            ascii_let = ord(let) - espace
+            if ascii_let < ord('0'):
+                ascii_let += 10
+            mot_decryp += chr(ascii_let)   
+
         else:
             mot_decryp += let  
     
@@ -147,6 +160,13 @@ def decrypt_sans_cle(mot):
                     ascii_let += 26  
                 mot_decryp += chr(ascii_let)
 
+
+            elif "0" <= let <= "9":
+                ascii_let = ord(let) - deca
+                if ascii_let < ord('0'):
+                    ascii_let += 10
+                mot_decryp += chr(ascii_let)
+
             else:
                 mot_decryp += let 
 
@@ -163,12 +183,3 @@ def decrypt_sans_cle(mot):
 print(decrypt_sans_cle(input("Entrez le mot à décrypter : ")))
 
 # --- Test --- #
-
-         
-
-
-
-
-
-
-
