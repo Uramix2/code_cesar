@@ -6,8 +6,14 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 ![Contributions](https://img.shields.io/badge/Contributions-Faucheur/Baptium-white?style=for-the-badge)
 
-> **Un programme en Python permettant de chiffrer et déchiffrer un texte avec le chiffrement de César.**
+Ce programme permet de **crypter** et **décrypter** un mot ou une date en utilisant le **chiffrement de César**.  
+📅 **Date de création:** 04/02/2025  
+🔄 **Dernière modification:** 09/02/2025  
+👨‍💻 **Auteur:** Uramix  
 
+> Apprend la cyber avec **CyberXploit** : plateforme de cybersécurité en ligne avec des cours, des challenges et des tutoriels 100% gratuits adaptés pour les débutants.
+
+---
 ## 📜 **Description**
 Ce programme propose plusieurs fonctionnalités :
 
@@ -45,31 +51,65 @@ python3 césar.py
 
 ---
 
-## 🎯 **Utilisation**
 
-### 🔒 **Chiffrement d'un mot**
-```sh
-Entrez le mot à crypter : BONJOUR
+## ⚙️ **Utilisation**
+
+Pour exécuter le programme, assurez-vous d'avoir **Python** installé sur votre machine.
+
+```bash
+python3 main.py
+```
+
+Au démarrage, un **menu interactif** s'affichera :
+
+```
+1 : Crypter un mot/date
+2 : Décrypter un mot avec une clé
+3 : Décrypter un mot en brute force
+4 : Décrypter une date en brute force
+```
+
+Choisissez l'option souhaitée en entrant le **numéro correspondant**.
+
+---
+## 📚 **Explications des Fonctions**
+
+### 1. `code_cesar(mot, espace)`
+Chiffre un mot en utilisant le **chiffrement de César** avec un décalage donné.
+
+### 2. `decrypt_avec_cle(mot, espace)`
+Déchiffre un mot en connaissant le **décalage utilisé** pour le chiffrement.
+
+### 3. `decrypt_sans_cle(mot)`
+Déchiffre un mot par **force brute** en essayant tous les décalages de 1 à 26.
+
+### 4. `decrypt_date(date)`
+🔑 **Déchiffre une date** en utilisant tous les décalages de 0 à 9.
+
+### 5. `is_valid_date(text)`
+Vérifie si une chaîne de caractères correspond à une **date valide** au format `jj/mm/aaaa`.
+
+---
+
+
+## 🧪 **Exemple d'Utilisation**
+
+### Chiffrement
+```
+Entrez le mot à crypter : bonjour
 Entrez un nombre : 3
-```
-**Sortie :**
-```sh
-🔑 Décalage  3 ⮞ ERQMRXU
-✅ Cryptage terminé ! 🎉
+🔑 Décalage  3 ⮞ erqmrxu
 ```
 
-### 🔓 **Déchiffrement avec clé**
-```sh
-Entrez le mot à décrypter : ERQMRXU
+### Déchiffrement avec clé
+```
+Entrez le mot à décrypter : erqmrxu
 Entrez une clé de chiffrement : 3
-```
-**Sortie :**
-```sh
-🔑 Décalage  3 ⮞ BONJOUR
-✅ Décryptage terminé ! 🎉
+🔑 Décalage  3 ⮞ bonjour
 ```
 
-### 🔍 **Déchiffrement sans clé (brute-force)**
+
+###  Déchiffrement sans clé (brute-force)
 ```sh
 Entrez le mot à décrypter : ERQMRXU
 ```
@@ -81,16 +121,32 @@ Entrez le mot à décrypter : ERQMRXU
 🔑 Décalage  4 ⮞ AMNJMTQ
 ...
 ```
+### Déchiffrement date souus format `jj/mm/aaaa`
+```sh
+Entrez la date à décrypter : 45/35/5358
+```
+**Sortie :**
+```sh
+🔑 Décalage  3 ⮞ 12/02/2025  ✅
+...
+```
+
 
 ---
 
-## 📌 **Exemple d'affichage ASCII**
+## 📌 ** Affichage ASCII début**
 
 ```
-╔══════════════════════════╗
-║     🔒 Code César 🔒    ║
-║    ==== DONNÉES ====     ║
-╚══════════════════════════╝
+╔═══════════════════════════════════════════════════════════╗
+║ 🔒 Menu de Chiffrement et Déchiffrement de code césar 🔒 ║
+║                  Sélectionnez une option :                ║
+╚═══════════════════════════════════════════════════════════╝
+
+
+1 : Crypter un mot/date
+2 : Décrypter un mot avec une clé
+3 : Décrypter un mot en brute force
+4 : Décrypter une date en brute force
 ```
 
 ---
