@@ -128,7 +128,6 @@ Entrez la date à décrypter : 45/35/5358
 **Sortie :**
 ```sh
 🔑 Décalage  3 ⮞ 12/02/2025  ✅
-...
 ```
 
 
