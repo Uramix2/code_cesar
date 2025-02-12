@@ -175,8 +175,20 @@ Les contributions sont les bienvenues ! Si vous avez des idées d'améliorations
 
 ---
 
+## ⭐ Remerciements
+
+Merci à tous les utilisateurs et à la communauté **CyberXploit** pour leur soutien continu !  
+N'hésitez pas à laisser une **⭐ étoile** sur le dépôt si vous trouvez ce projet utile.
+
+---
+
 ## 📜 **Licence**
 Ce projet est sous licence **MIT** - vous pouvez l'utiliser librement ! ✅
 
 🚀 *Projet créé par [Uramix](https://github.com/Uramix2/).*
+🚧 *Autres Projet en cours [CyberXploit](https://cyberxploit.fr).*
+
+---
+🔒 **Bon chiffrement et déchiffrement !** 🔒
+    
 
