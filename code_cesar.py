@@ -1,6 +1,6 @@
 # Description: Ce programme permet de crypter et décrypter un mot ou un date en utilisant le chiffrement de César.
 # Date de création: 04/02/2025 
-# Date de modification: 12/02/2025
+# Date de modification: 09/02/2025
 # Apprend la cyber avec CyberXploit : plateforme de cybersécrité en ligne avec des cours, des challenges et des tutoriels 100% gratuit adapté pour les débutants.
 # Auteur: Uramix
 
@@ -216,14 +216,7 @@ def decrypt_date(date):
     """
     Déchiffre une date en utilisant le chiffrement de César en brute force.
     """
-    if not is_valid_date(date):  # Vérifie si la date est valide
-        print("\033[1;31m Date invalide !\033[0m")
-        print("\033[1;32m")
-        print("════════════════════════════")
-        print(" ❌ Décryptage impossible ! ")
-        print("════════════════════════════")
-        print("\033[0m")
-        
+     
     status_date = False # Initialisation de la variable pour vérifier si une date valide a été trouvée
 
     for i in range(0, 10):  # Essayer tous les décalages de 0 à 9
@@ -232,13 +225,14 @@ def decrypt_date(date):
         for e in date:
             if "0" <= e <= "9":
                 new_digit = (int(e) - i) % 10  # Décalage vers l'arrière
-                decrypted_date += str(new_digit)
+                decrypted_date += str(new_digit) 
             else:
                 decrypted_date += e  # Garder les autres caractères inchangés nottament le '/' entre les chiffres
 
         if is_valid_date(decrypted_date):  # Affiche la date si elle est valide
             status_date = True
             print(f"\033[1;36m🔑 Décalage {i:2d} ⮞ {decrypted_date}\033[0m")
+       
 
     if status_date == True:  # Si aucune date valide n'a été trouvée
         print("\033[1;32m")
@@ -246,6 +240,14 @@ def decrypt_date(date):
         print(" ✅ Décryptage terminé ! 🎉")
         print("════════════════════════════")
         print("\033[0m")
+    else:    # Vérifie si la date est valide
+        print("\033[1;31m Date invalide !\033[0m")
+        print("\033[1;32m")
+        print("════════════════════════════")
+        print(" ❌ Décryptage impossible ! ")
+        print("════════════════════════════")
+        print("\033[0m")
+    
 
     
 
@@ -254,7 +256,6 @@ def decrypt_date(date):
 #print(decrypt_date(input("Entrez la date : ")))
 
 # --- Test --- #
-
 
 # --- Fonction principale --- #
 def main():
@@ -300,4 +301,5 @@ def main():
 
 # --- Exécution --- #
 main()
+
 # --- Fin  --- #
