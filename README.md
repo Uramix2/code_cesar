@@ -11,8 +11,6 @@ Ce programme permet de **crypter** et **décrypter** un mot ou une date en utili
 🔄 **Dernière modification:** 12/02/2025  
 👨‍💻 **Auteur:** Uramix  
 
-> Apprend la cyber avec **CyberXploit** : plateforme de cybersécurité en ligne avec des cours, des challenges et des tutoriels 100% gratuits adaptés pour les débutants.
-
 ---
 ## 📜 **Description**
 Ce programme propose plusieurs fonctionnalités :
@@ -185,7 +183,6 @@ N'hésitez pas à laisser une **⭐ étoile** sur le dépôt si vous trouvez ce 
 Ce projet est sous licence **MIT** - vous pouvez l'utiliser librement ! ✅
 
 🚀 *Projet créé par [Uramix](https://github.com/Uramix2/).*
-🚧 *Autres Projet en cours [CyberXploit](https://cyberxploit.fr).*
 
 ---
 🔒 **Bon chiffrement et déchiffrement !** 🔒
